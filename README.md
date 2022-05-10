@@ -1,5 +1,5 @@
 # Typescript Demo
-A repo for typescript demo
+A repo for typescript demo - https://www.evernote.com/shard/s316/sh/eea76e2f-6a6e-f820-d861-831c6eaa4fab/
 
 Steps to work with Typescript
 1. npm install -g typscript
