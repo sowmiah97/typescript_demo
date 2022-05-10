@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true, // This is to specify compiler not to fallback to any type in case type cannot be filtered
+        "removeComments": false, // To remove comment from a ts file when its compiled to js file
+        "preserveConstEnums": true,
+        "sourceMap": false, // Generate a .map file
+        "strict": true, // On/off strictness using this param. Recommended to be on
+        "strictNullChecks": true // Enables to explicitly add null checks in our code
+    },
+    "files": [
+        "sample.ts"
+    ]
+}
