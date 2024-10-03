@@ -6,3 +6,6 @@ Steps to work with Typescript
 2. Create your files with .ts extenstion
 3. To compile typescript file to javascript, use typescript compiler tsc --> `tsc sample.ts` gives a transpiled javascript file in the same location
 4. To change the output ecmascript version, pass target config --> `tsc --target es2015 sample.ts`
+
+// Understanding components of a tyescript
+Look at math.js file which

@@ -7,6 +7,7 @@ var object = {
     age: 25
 };
 object.job = 'Front-end developer'; //Property 'job' does not exist on type '{ name: string; age: number; }'.ts(2339)
+//-----------------------------------------------------------------------------------------------------------------------------------------
 // Explicit Typing
 /* boolean */
 var booleanVar = true;

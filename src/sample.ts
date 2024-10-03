@@ -9,6 +9,8 @@ const object = {
 }
 object.job='Front-end developer'; //Property 'job' does not exist on type '{ name: string; age: number; }'.ts(2339)
 
+//-----------------------------------------------------------------------------------------------------------------------------------------
+
 // Explicit Typing
 /* boolean */
 let booleanVar: boolean = true;
@@ -53,6 +55,8 @@ function receiveStringOrNumber(x: string | number) {
 receiveStringOrNumber(1);
 receiveStringOrNumber("1");
 receiveStringOrNumber({ number: "1" }); //Argument of type '{ number: string; }' is not assignable to parameter of type 'string | number'.ts(2345)
+
+//-----------------------------------------------------------------------------------------------------------------------------------------
 
 // Type aliases -  Define your own type and use it anywhere for type declaration. if it's used many times it can be declared as type alias and be reused
 type twoDimension = { x: number, y: number };
